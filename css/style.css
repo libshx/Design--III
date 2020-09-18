@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster+Two:wght@700&display=swap");
+
 body {
    padding: 0;
    margin: 0;
@@ -23,17 +25,18 @@ nav {
    top: 0;
    padding: 0 5%;
    height: 100px;
-   text-transform: uppercase;
+   text-transform: none;
    background-color: rgba(145, 8, 83, 0.55);
 }
 
 nav .logo {
+   font-family: "Lobster Two", cursive;
    float: left;
    width: 40%;
    height: 100%;
    display: flex;
    align-items: center;
-   font-size: 24px;
+   font-size: 30px;
    color: white;
 }
 
@@ -53,9 +56,10 @@ nav .links li {
 }
 
 nav .links a {
+   font-family: "Lobster Two", cursive;
    display: block;
    padding: 1em;
-   font-size: 16px;
+   font-size: 20px;
    text-decoration: none;
    color: white;
 }
